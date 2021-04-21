@@ -1,6 +1,8 @@
 # Quickstart Guide to the Installation and Configuration of ownCloud 10 on RHEL 7
 
-This document is specific to installing ownCloud 10 on RHEL 7. For instructions using other Linux distributions please see your vendor's documentation or visit the [ownCloud vendor-neutral documentation](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html) for a detailed walk-through of this entire objective and more.
+The purpose of this quick start guide is to bring an instance of ownCloud 10 into production. The topics of user management and client software deployment are also discussed.
+
+This document is specific to RHEL 7. For instructions using other Linux distributions please see your vendor's documentation or visit the ownCloud vendor-neutral documentation for a detailed walk-through of this entire process and more.
 
 ## Prerequisites
 
