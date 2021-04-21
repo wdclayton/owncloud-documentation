@@ -133,5 +133,33 @@ User management is very intuitive. Simply navigate to the Users tab and fill out
 
 _Creating ownCloud users_
 
+## Connecting Client Software to ownCloud
+
+This section briefly describes obtaining the ownCloud desktop and mobile clients to access an ownCloud instance. 
+
+For a more detailed explanation see [ownCloud's client configuration documentation](https://doc.owncloud.com/desktop/).
+
+### ownCloud Desktop Client
+
+Download and run the client for your platform from the [ownCloud client download site](https://owncloud.com/desktop-app/). 
+
+Provide the necessary details for connecting to your ownCloud instance during the installation process.
+
+Detailed information for the client can be found at the [ownCloud documentation page for the desktop client](https://doc.owncloud.com/desktop/installing.html).
+
+### ownCloud Mobile Client
+
+#### Android
+
+The ownCloud Android app is available on the [Google Play Store](https://play.google.com/store/apps/details?id=com.owncloud.android).
+
+Detailed information for the Android app is available from the [ownCloud documentation for the Android app](https://doc.owncloud.com/android/).
+
+#### Apple iOS
+
+The ownCloud iOS app is available on the [iOS App Store](https://apps.apple.com/us/app/owncloud-file-sync-and-share/id1359583808).
+
+Detailed information for the iOS app is available from the [ownCloud documentation for the iOS app](https://doc.owncloud.com/ios/).
+
 
 
