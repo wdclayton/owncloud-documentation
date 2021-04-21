@@ -2,6 +2,8 @@
 
 This repository has been created to exemplify the usage of GitHub to store markdown as a code base for documentation. We will be using the [Owncloud](https://owncloud.com/) data storage platform as a subject matter base for documenting select activities associated with the installation and administration of this product.
 
+The quickstart document can be found [here](https://wdclayton.github.io/owncloud-documentation/quickstart).
+
 ## Key Topics
 
 Four topics will be discussed in sufficient detail to approximate the following:
