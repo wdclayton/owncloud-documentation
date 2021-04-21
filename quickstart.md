@@ -2,11 +2,11 @@
 
 The purpose of this quick start guide is to bring an instance of ownCloud 10 into production. The topics of user management and client software deployment are also discussed.
 
-This document is specific to RHEL 7. For instructions using other Linux distributions please see your vendor's documentation or visit the ownCloud vendor-neutral documentation for a detailed walk-through of this entire process and more.
+This document is specific to RHEL 7. For instructions using other Linux distributions please see your vendor's documentation or visit the [ownCloud vendor-neutral documentation](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html) for a detailed walk-through of this entire process and more.
 
 ## Prerequisites
 
-For our purposes we will be utilizing rpm's built-in package dependency resolution. See the full list of [ownCloud's prerequisite's here](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html#prerequisites).
+This section details the commands to install all necessary RPM packages. See the full list of [ownCloud's prerequisite's here](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html#prerequisites).
 
 ### Enable the RHEL7 software repository
 
