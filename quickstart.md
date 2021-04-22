@@ -99,7 +99,7 @@ These are the basic steps in performing the post-installation configuration of y
 
 In a web browser navigate to your ownCloud instance with the following URL structure:
 
-    https://your.owncloud.instance:8080/owncloud
+    https://192.168.100.100:8080/owncloud
 
 Enter the necessary details to complete the server configuration as shown below:
 
