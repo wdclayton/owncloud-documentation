@@ -6,7 +6,7 @@ This document is specific to RHEL 7. For instructions using other Linux distribu
 
 ## Prerequisites
 
-This section details the commands to install all necessary RPM packages. See the full list of [ownCloud's prerequisite's here](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html#prerequisites).
+This section details the commands to install all necessary RPM packages. See the full list of [ownCloud's prerequisites here](https://doc.owncloud.com/server/admin_manual/installation/manual_installation.html#prerequisites).
 
 ### Enable the RHEL7 software repository
 
@@ -29,7 +29,7 @@ This section details the commands to install all necessary RPM packages. See the
 
     rpm --import https://download.owncloud.org/download/repositories/production/RHEL_7/repodata/repomd.xml.key
 
-### Add the Owncloud RPM repository
+### Add the owncCloud RPM repository
 
     cd /etc/yum.repos.d/
     wget http://download.owncloud.org/download/repositories/production/RHEL_7/ce:stable.repo
@@ -40,7 +40,7 @@ This section details the commands to install all necessary RPM packages. See the
 
 ### Change the default port for Apache
 
-Using the editor of your choice, edit /etc/apache/sites-enabled/000-default.conf to go from this:
+Using the editor of your choice, edit /etc/apache/sites-enabled/000-owncloud.conf to go from this:
 
     <VirtualHost *:80>
 
@@ -48,9 +48,9 @@ To this:
 
     <VirtualHost *:8080>
 
-### Save the file and restart Apache
+### Save the file and start Apache
 
-    systemctl restart httpd
+    systemctl start httpd
 
 ### Start MariaDB:
 
@@ -60,7 +60,7 @@ To this:
 
 ### Create the ownCloud database
 
-__Note:__ Be sure to run the mysql_secure_installation to secure MariaDB.
+__Note:__ Be sure to run the _mysql_secure_installation_ script to secure MariaDB.
 
 ### Log in to MySQL server:
 
@@ -95,7 +95,9 @@ __Note:__ Be sure to run the mysql_secure_installation to secure MariaDB.
 
 ## Post-Install ownCloud configuration
 
-These are the basic steps in performing the post-installation configuration of your new ownCloud instance. For a more detailed walk-through and full explanation, see [ownCloud's description of this process](https://doc.owncloud.com/server/admin_manual/installation/installation_wizard.html#introduction). In a web browser navigate to your ownCloud instance with the following URL structure:
+These are the basic steps in performing the post-installation configuration of your new ownCloud instance. For a more detailed walk-through and full explanation, see [ownCloud's description of this process](https://doc.owncloud.com/server/admin_manual/installation/installation_wizard.html#introduction). 
+
+In a web browser navigate to your ownCloud instance with the following URL structure:
 
     https://your.owncloud.instance:8080/owncloud
 
